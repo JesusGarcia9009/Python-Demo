@@ -2,6 +2,7 @@
 Demo de python con Django con REST FRAMEWORK
 
 ## Aplications
+```
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -16,9 +17,11 @@ INSTALLED_APPS = [
     # CORS
     'corsheaders',
 ]
+```
 
 ## DATABASE - postgres
 
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -29,6 +32,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+```
 
 ## MIDDLEWARE - CORS
 MIDDLEWARE = [
@@ -44,29 +48,28 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-Comandos Python
-
 ##### COMANDOS ######
-#Comando para crear un proyecto Django
+# Comando para crear un proyecto Django
 django-admin startproject PdrMsPyCobranzaAsignacion
-#Comando para crear un modelulo dentro del proyecto django
+
+# Comando para crear un modelulo dentro del proyecto django
 python manaje.py startapp name-modulo
-#Inspeccionar base de datos
+
+# Inspeccionar base de datos
 python mysite/manage.py inspectdb
 
-#Migraciones Iniciales de los proyectos o cuando hay cambios en la base de datos
-##aplica los cambios dentro del proyecto en la base de datos
+# Migraciones Iniciales de los proyectos o cuando hay cambios en la base de datos(aplica los cambios dentro del proyecto en la base de datos)
 python manage.py migrate
 python manage.py makemigrations
 python manage.py migrate
 
-##Start server
+# Start server
 py manage.py runserver
 
-##Creacion del super usuario
+# Creacion del super usuario
 py manage.py createsuperuser
 
-##instalar driver para postgres
+# instalar driver para postgres
 pip install psycopg2
 
 
