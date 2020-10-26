@@ -49,27 +49,27 @@ MIDDLEWARE = [
 ]
 
 ##### COMANDOS ######
-# Comando para crear un proyecto Django
-django-admin startproject PdrMsPyCobranzaAsignacion
+## Comando para crear un proyecto Django
+django-admin startproject name-app
 
-# Comando para crear un modelulo dentro del proyecto django
-python manaje.py startapp name-modulo
+## Comando para crear un modelulo dentro del proyecto django
+- python manaje.py startapp name-modulo
 
-# Inspeccionar base de datos
-python mysite/manage.py inspectdb
+## Inspeccionar base de datos
+- python mysite/manage.py inspectdb
 
-# Migraciones Iniciales de los proyectos o cuando hay cambios en la base de datos(aplica los cambios dentro del proyecto en la base de datos)
-python manage.py migrate
-python manage.py makemigrations
-python manage.py migrate
+## Migraciones Iniciales de los proyectos o cuando hay cambios en la base de datos(aplica los cambios dentro del proyecto en la base de datos)
+- python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
-# Start server
-py manage.py runserver
+## Start server
+- py manage.py runserver
 
-# Creacion del super usuario
-py manage.py createsuperuser
+## Creacion del super usuario
+- py manage.py createsuperuser
 
-# instalar driver para postgres
-pip install psycopg2
+## instalar driver para postgres
+- pip install psycopg2
 
 
