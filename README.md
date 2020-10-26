@@ -35,6 +35,7 @@ DATABASES = {
 ```
 
 ## MIDDLEWARE - CORS
+```
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -47,8 +48,10 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
+```
 
 ##### COMANDOS ######
+```
 ## Comando para crear un proyecto Django
 django-admin startproject name-app
 
@@ -71,5 +74,5 @@ django-admin startproject name-app
 
 ## instalar driver para postgres
 - pip install psycopg2
-
+```
 
